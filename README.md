@@ -2,13 +2,13 @@
 compare image "Source" and "Pattern"
 Find the most similar part in source image and plot it on source image
 
-#Require
+# System Requirement
 CUDA
 OpenCV
 source image file
 pattern image file
 
-#Compile
+# Compile
 vim CMakeLists.txt
 
 cmake_minimum_required(VERSION 2.6)
@@ -22,5 +22,5 @@ target_link_libraries( HW4 ${OpenCV_LIBS} )
 cmake .
 make
 
-#Usage
+# Usage
 ./HW4 sourceImg patternImg
