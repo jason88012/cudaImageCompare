@@ -3,10 +3,7 @@ compare image "Source" and "Pattern"
 Find the most similar part in source image and plot it on source image
 
 # System Requirement
-CUDA
-OpenCV
-source image file
-pattern image file
+CUDA/OpenCV/source image file/pattern image file
 
 # Compile
 vim CMakeLists.txt
