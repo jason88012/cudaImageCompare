@@ -1,25 +1,25 @@
 # cudaImageCompare.
-compare image "Source" and "Pattern"
+compare image "Source" and "Pattern"<br>
 Find the most similar part in source image and plot it on source image
 
 # System Requirement
-CUDA. 
-OpenCV. 
-source image file. 
-pattern image file  
+CUDA<br>
+OpenCV<br>
+source image file<br>
+pattern image file
 
 # Compile
 vim CMakeLists.txt
 
-cmake_minimum_required(VERSION 2.6). 
-project(HW4). 
-find_package(CUDA REQUIRED). 
-find_package(OpenCV REQUIRED). 
-set(CUDA_64_BIT_DEVICE_CODE ON). 
-cuda_add_executable( HW4 HW4.cu ). 
-target_link_libraries( HW4 ${OpenCV_LIBS} ). 
+cmake_minimum_required(VERSION 2.6)<br>
+project(HW4)<br>
+find_package(CUDA REQUIRED)<br>
+find_package(OpenCV REQUIRED)<br>
+set(CUDA_64_BIT_DEVICE_CODE ON)<br>
+cuda_add_executable( HW4 HW4.cu )<br>
+target_link_libraries( HW4 ${OpenCV_LIBS} )<br>
 
-cmake .
+cmake<br>
 make
 
 # Usage
