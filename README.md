@@ -19,7 +19,7 @@ set(CUDA_64_BIT_DEVICE_CODE ON)<br>
 cuda_add_executable( HW4 HW4.cu )<br>
 target_link_libraries( HW4 ${OpenCV_LIBS} )<br>
 
-cmake<br>
+cmake .<br>
 make
 
 # Usage
