@@ -13,4 +13,4 @@ cmake .<br>
 make
 
 # Usage
-./HW4 sourceImg patternImg
+./HW4 [sourceImg] [patternImg]
